@@ -7,7 +7,7 @@ services:
     ports:
      - 27017:27017
     volumes:
-     - /media/mongo/data:/data
+     - /media/mongodisk/data:/data
     
   mongo-express:
     image: mongo-express

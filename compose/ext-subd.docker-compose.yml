@@ -7,8 +7,8 @@ services:
     ports:
      - 27017:27017
     volumes:
-     - /media/mongo/data/db:/data/db
-     - /media/mongo/data/configdb:/data/configdb
+     - /media/mongodisk/data/db:/data/db
+     - /media/mongodisk/data/configdb:/data/configdb
     
   mongo-express:
     image: mongo-express
