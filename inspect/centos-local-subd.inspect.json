@@ -1,7 +1,7 @@
 [
     {
-        "Id": "11546c0a681d9b8c115e171a307912a26084091293f12027dece38097919bbf3",
-        "Created": "2021-05-26T21:34:01.369609373Z",
+        "Id": "db8280efc2f051f75a6b03e8c09960fedadcf816d60d7741175b5704b9dc2d9c",
+        "Created": "2021-06-03T20:43:06.359387611Z",
         "Path": "docker-entrypoint.sh",
         "Args": [
             "mongod"
@@ -13,18 +13,18 @@
             "Restarting": false,
             "OOMKilled": false,
             "Dead": false,
-            "Pid": 25052,
+            "Pid": 5675,
             "ExitCode": 0,
             "Error": "",
-            "StartedAt": "2021-05-26T21:34:02.001739963Z",
+            "StartedAt": "2021-06-03T20:43:06.968794264Z",
             "FinishedAt": "0001-01-01T00:00:00Z"
         },
         "Image": "sha256:07630e791de3ceb87d39543799438e118753246d19dcfd6529bd4d27ff1b83bd",
-        "ResolvConfPath": "/var/lib/docker/containers/11546c0a681d9b8c115e171a307912a26084091293f12027dece38097919bbf3/resolv.conf",
-        "HostnamePath": "/var/lib/docker/containers/11546c0a681d9b8c115e171a307912a26084091293f12027dece38097919bbf3/hostname",
-        "HostsPath": "/var/lib/docker/containers/11546c0a681d9b8c115e171a307912a26084091293f12027dece38097919bbf3/hosts",
-        "LogPath": "/var/lib/docker/containers/11546c0a681d9b8c115e171a307912a26084091293f12027dece38097919bbf3/11546c0a681d9b8c115e171a307912a26084091293f12027dece38097919bbf3-json.log",
-        "Name": "/mongo_mongo_1",
+        "ResolvConfPath": "/var/lib/docker/containers/db8280efc2f051f75a6b03e8c09960fedadcf816d60d7741175b5704b9dc2d9c/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/db8280efc2f051f75a6b03e8c09960fedadcf816d60d7741175b5704b9dc2d9c/hostname",
+        "HostsPath": "/var/lib/docker/containers/db8280efc2f051f75a6b03e8c09960fedadcf816d60d7741175b5704b9dc2d9c/hosts",
+        "LogPath": "/var/lib/docker/containers/db8280efc2f051f75a6b03e8c09960fedadcf816d60d7741175b5704b9dc2d9c/db8280efc2f051f75a6b03e8c09960fedadcf816d60d7741175b5704b9dc2d9c-json.log",
+        "Name": "/wtfmongo_mongo_1",
         "RestartCount": 0,
         "Driver": "overlay2",
         "Platform": "linux",
@@ -42,7 +42,7 @@
                 "Type": "json-file",
                 "Config": {}
             },
-            "NetworkMode": "mongo_default",
+            "NetworkMode": "wtfmongo_default",
             "PortBindings": {
                 "27017/tcp": [
                     {
@@ -137,10 +137,10 @@
         },
         "GraphDriver": {
             "Data": {
-                "LowerDir": "/var/lib/docker/overlay2/eca0d0b1913e48189224096a775ad4f95f87825f1d82ee2cdadb4787fc203df6-init/diff:/var/lib/docker/overlay2/89a224c37b5a5492e6427dcf640f7626712fad442cc913b714ad5919f8bd8622/diff:/var/lib/docker/overlay2/3229e27aedf20e535b66a7247e127ab8b2b5b00b19ed2e6bce4f41f7941c53f3/diff:/var/lib/docker/overlay2/8a9b4cb963016b3038c6b3b233f83f7b76aa9de6d853469b00bd68367b01bdfe/diff:/var/lib/docker/overlay2/bc7c613db4bc54fc0a81e08a09331f84a675c0da24bc949140ccc9f4128e7ee2/diff:/var/lib/docker/overlay2/e522b464c076f0cadcf492d7e9293854314f9dcc3c249a6f4e94d3dfbaa055e3/diff:/var/lib/docker/overlay2/b546aebf9542327b91d159f6fa93c6a2bb1d22dcddd1f233d50e9cd83f252123/diff:/var/lib/docker/overlay2/f211bdcacd0ef63ad3367acc53f459f3e873aab57cfd7a0926392b2eb3ddc033/diff:/var/lib/docker/overlay2/e2e7c5977fab0659c5bd17b1b2b082b1fad1f385db478e3d49b7d2140dc69fad/diff:/var/lib/docker/overlay2/570e11f4b2ec3bec5ff00b2e7909bff81f50b046ebaeca0a70632c46937343c8/diff:/var/lib/docker/overlay2/5ef76e695565f1fb7d10c5eb67b68854bf67ecbeb835eecbc89e26cf33acfb65/diff:/var/lib/docker/overlay2/581794b989453f3c57be17c92eda8d33bfce23aafaccc5d701ba4cbfff54271b/diff:/var/lib/docker/overlay2/2c2b9ab9ce5b9b26792a15e3ce8365ab95c5ec88838b4c1250a3b9bda6c95beb/diff",
-                "MergedDir": "/var/lib/docker/overlay2/eca0d0b1913e48189224096a775ad4f95f87825f1d82ee2cdadb4787fc203df6/merged",
-                "UpperDir": "/var/lib/docker/overlay2/eca0d0b1913e48189224096a775ad4f95f87825f1d82ee2cdadb4787fc203df6/diff",
-                "WorkDir": "/var/lib/docker/overlay2/eca0d0b1913e48189224096a775ad4f95f87825f1d82ee2cdadb4787fc203df6/work"
+                "LowerDir": "/var/lib/docker/overlay2/a879c760209869adb5d50c4ee0c29c491044a44bf9483794b96efeb4f6c8e979-init/diff:/var/lib/docker/overlay2/1a8549e138e847cd941d76b0ac3c2bee3d3804f408236b6fc115937eec509368/diff:/var/lib/docker/overlay2/8452b95de5ee6fcc0067fdd7dbfe7bbb4d70f5bc55822961a7a7d7ef18001115/diff:/var/lib/docker/overlay2/1a2610cbfd6ec2b7825d1641bbcab9b985f8e4d3b0c166bed86d9ec8da2af8e4/diff:/var/lib/docker/overlay2/e57f60802d4421319cf1d7a0e9bbc68dc4f6b7222130245b285a35764c55539a/diff:/var/lib/docker/overlay2/a1143d4848a47e18a0f0b526a43be8a42184cd1ac560ed26a790029d72831219/diff:/var/lib/docker/overlay2/bd54eed90b028c988caf47d248821910f0e71f195017be0759f50bba9a242e73/diff:/var/lib/docker/overlay2/5fb1adcebf295640d989cea760fd391fb2d704df85edc46c7d1c5e55ea62e44d/diff:/var/lib/docker/overlay2/b76562aa8d1be7951061a00a635609c78618eb68d3f966bc25e46147e90f6159/diff:/var/lib/docker/overlay2/885494d2f548aefe3ca30af310e1d54f49d71bdd2de3da3acf7745a482acbb67/diff:/var/lib/docker/overlay2/ddde56f4f8ea9eab0a74c0a3776bfa9c5d9f9f774055e5fe043b3c363c6307f1/diff:/var/lib/docker/overlay2/f6bb1d9d9290e1590b37523196a47e77baed8c4cee05978b9a72fa38e7b5f7cc/diff:/var/lib/docker/overlay2/21225d3413504d9e7cbad46d58b4175da6ffd31c97f31683f27cd10222c04fb6/diff",
+                "MergedDir": "/var/lib/docker/overlay2/a879c760209869adb5d50c4ee0c29c491044a44bf9483794b96efeb4f6c8e979/merged",
+                "UpperDir": "/var/lib/docker/overlay2/a879c760209869adb5d50c4ee0c29c491044a44bf9483794b96efeb4f6c8e979/diff",
+                "WorkDir": "/var/lib/docker/overlay2/a879c760209869adb5d50c4ee0c29c491044a44bf9483794b96efeb4f6c8e979/work"
             },
             "Name": "overlay2"
         },
@@ -163,7 +163,7 @@
             }
         ],
         "Config": {
-            "Hostname": "11546c0a681d",
+            "Hostname": "db8280efc2f0",
             "Domainname": "",
             "User": "",
             "AttachStdin": false,
@@ -199,17 +199,17 @@
             ],
             "OnBuild": null,
             "Labels": {
-                "com.docker.compose.config-hash": "6b9293b1b050e9718319aa5c4554ad535e6d8b813548300ae469b92dfa34099e",
+                "com.docker.compose.config-hash": "792482320f0dfd6160a2b4bff4e26d851d228bf0b580a8d9b484209163c14711",
                 "com.docker.compose.container-number": "1",
                 "com.docker.compose.oneoff": "False",
-                "com.docker.compose.project": "mongo",
+                "com.docker.compose.project": "wtfmongo",
                 "com.docker.compose.service": "mongo",
                 "com.docker.compose.version": "1.18.0"
             }
         },
         "NetworkSettings": {
             "Bridge": "",
-            "SandboxID": "5a01cd9bbc323fbb5321454bb47b7c17b033dda57e679754c6354091413941ea",
+            "SandboxID": "e7cbabd4999103f2cffb1cd593aac9b84cd4704d281e446dde82899342af9573",
             "HairpinMode": false,
             "LinkLocalIPv6Address": "",
             "LinkLocalIPv6PrefixLen": 0,
@@ -225,7 +225,7 @@
                     }
                 ]
             },
-            "SandboxKey": "/var/run/docker/netns/5a01cd9bbc32",
+            "SandboxKey": "/var/run/docker/netns/e7cbabd49991",
             "SecondaryIPAddresses": null,
             "SecondaryIPv6Addresses": null,
             "EndpointID": "",
@@ -237,15 +237,15 @@
             "IPv6Gateway": "",
             "MacAddress": "",
             "Networks": {
-                "mongo_default": {
+                "wtfmongo_default": {
                     "IPAMConfig": null,
                     "Links": null,
                     "Aliases": [
                         "mongo",
-                        "11546c0a681d"
+                        "db8280efc2f0"
                     ],
-                    "NetworkID": "d97c47f15d9c2d0e33e1b7e07c2dbbe39333f988ff4be9d52aa40b38c5b5d492",
-                    "EndpointID": "0ab9bff92c8044dd5154e859542c553bd8c7d056804e7d91f60295e9f0933429",
+                    "NetworkID": "5d53178cb280d2713fd9b5d19bdd262e44d8f6542ea6e016d1ebeef7f2242a04",
+                    "EndpointID": "9c85531410240900204089671ae7d4966125acbbf38c1aba1928136c2884c77b",
                     "Gateway": "172.19.0.1",
                     "IPAddress": "172.19.0.2",
                     "IPPrefixLen": 16,
