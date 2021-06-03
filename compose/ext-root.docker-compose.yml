@@ -1,0 +1,23 @@
+---
+version: "3.3"
+
+services:
+  mongo:
+    image: mongo:latest
+    ports:
+     - 27017:27017
+    volumes:
+     - /media/mongo/data:/data
+    
+  mongo-express:
+    image: mongo-express
+    depends_on:
+      - mongo
+    environment:
+      ME_MONGODB_SERVER: mongo
+      ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+      ME_CONFIG_MONGODB_ADMINPASSWORD: pass
+    ports:
+     - 8081:8081
+
+
